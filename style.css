@@ -15,16 +15,18 @@ body {
 
 header {
     min-height: 83px;
+
 }
 
+
 main {
-    height: calc(100vh - 168px);
+    height: calc(100vh - 128px);
     overflow: auto;
 
 }
 
 footer {
-    height: 85px;
+    min-height: 45px;
     background-color: #222222;
     position: fixed;
     left: 0;
@@ -53,6 +55,10 @@ HEADER
     margin-right: 10px;
 }
 
+button {
+    color: white;
+}
+
 /*-------------
 MAIN
 ---------------*/
@@ -60,7 +66,7 @@ MAIN
 .container {
     display: flex;
     flex-wrap: wrap;
-    padding: 20px 40px;
+    padding: 5px 40px;
 }
 
 .box {
@@ -68,7 +74,7 @@ MAIN
     color: white;
     position: relative;
     margin: 3px;
-    height: 200px;
+    height: 100px;
 }
 
 
@@ -82,4 +88,64 @@ MAIN
     bottom: 0px;
     left: 0px;
     background-color: grey;
+}
+
+/*-------------
+FOOTER
+---------------*/
+
+.flex-footer {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
+
+.left {
+    padding: 10px 40px 10px;
+}
+
+.icon {
+    font-size: 20px;
+}
+
+.text {
+    font-size: 15px;
+
+}
+
+.footer {
+    display: flex;
+}
+
+.cam {
+    margin-left: 45px;
+}
+
+.center ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    padding-top: 10px;
+
+
+}
+
+
+.green i {
+    color: #3e9f0a;
+
+}
+
+.right {
+    background-color: #4a4a4a;
+
+    align-items: center;
+}
+
+.right button {
+    color: red;
+    background-color: transparent;
+    border: transparent;
+    padding: 10px;
 }
