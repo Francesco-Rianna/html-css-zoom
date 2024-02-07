@@ -8,30 +8,42 @@ RESET
     padding: 0;
 }
 
+body {
+    background-color: black;
+
+}
+
 header {
-    height: 60px;
-    background-color: green;
+    min-height: 83px;
 }
 
 main {
-    background-color: red;
-    height: calc(100vh - 160px);
-    overflow-x: auto;
-    padding: 20px;
+    height: calc(100vh - 168px);
 }
 
 footer {
-    background-color: yellow;
-    height: 100px;
+    height: 85px;
+    background-color: #222222;
+
 }
 
-.flex {
+/*-------------
+HEADER
+---------------*/
+
+.flex-header {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding: 5px 5px;
 }
 
+.flex-header button {
+    background-color: grey;
+    border-radius: 5px;
+    padding: 3px;
+    border: 1px solid transparent;
+}
 
-.box {
-    width: calc(100vw/7);
-    padding: 10px;
+.view {
+    margin-right: 10px;
 }
