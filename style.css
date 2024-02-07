@@ -34,6 +34,13 @@ footer {
     width: 100%;
 }
 
+button {
+    background-color: transparent;
+    border: transparent;
+
+}
+
+
 /*-------------
 HEADER
 ---------------*/
@@ -105,11 +112,11 @@ FOOTER
     padding: 10px 40px 10px;
 }
 
-.icon {
+.icon i {
     font-size: 20px;
 }
 
-.text {
+.icon .text {
     font-size: 15px;
 
 }
@@ -145,7 +152,4 @@ FOOTER
 
 .right button {
     color: red;
-    background-color: transparent;
-    border: transparent;
-    padding: 10px;
 }
