@@ -1,0 +1,37 @@
+/*-------------
+RESET 
+---------------*/
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+header {
+    height: 60px;
+    background-color: green;
+}
+
+main {
+    background-color: red;
+    height: calc(100vh - 160px);
+    overflow-x: auto;
+    padding: 20px;
+}
+
+footer {
+    background-color: yellow;
+    height: 100px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.box {
+    width: calc(100vw/7);
+    padding: 10px;
+}
